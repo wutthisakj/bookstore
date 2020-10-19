@@ -2,3 +2,11 @@
 JWT_SECRET_KEY = "62eb8c48339aac7038596066bbdd0e59e2cdc337b309d6fd7837d33ecbefe1ce"
 JWT_ALGORITH = "HS256"
 JWT_EXPIRATION_TIME_MINUITES = 60 * 24 * 5
+
+JWT_SUMMARY = "It return JWT token."
+JWT_DESCRIPTION = "Get token from this API"
+
+DB_HOST = "localhost"
+DB_USER = "postgres"
+DB_PASSWORD = "myPass123"
+DB_NAME = "bookstore"
