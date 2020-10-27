@@ -3,8 +3,9 @@ from typing import List
 
 
 class Author(BaseModel):
+    id: int
     name: str
-    book: List[str]
+    books: List[str]
     
 
 

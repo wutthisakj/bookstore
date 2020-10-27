@@ -10,3 +10,9 @@ DB_HOST = "localhost"
 DB_USER = "postgres"
 DB_PASSWORD = "myPass123"
 DB_NAME = "bookstore"
+DB_URL = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}"
+
+ISBN_DESCRIPTION = "ISBN of the book"
+
+UPLOAD_PHOTO_APIKEY = "56862fb0125fd7fd6220481af9a1ac96"
+UPLOAD_PHOTO_URL = f"https://api.imgbb.com/1/upload?key={UPLOAD_PHOTO_APIKEY}"
